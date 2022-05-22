@@ -16,7 +16,7 @@ Each route takes a query key of nums which is a comma-separated list of numbers.
 
 The response of each operation should be JSON which looks like this:
 
-```js
+```json
 response: {
 operation: "mean",
 value: 4
@@ -34,7 +34,7 @@ Make sure you have unit tests for mean, median and mode.
 
 -   Make a route called /all that does all three operations at the same time, with the response from each of them as a key in the JSON response. It can look like this:
 
-```js
+```json
 response: {
 operation: "all",
 mean: 12
